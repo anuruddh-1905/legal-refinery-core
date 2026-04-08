@@ -1,0 +1,9 @@
+unstructured
+tesseract
+spacy
+presidio-analyzer
+sentence-transformers
+fastapi
+uvicorn
+psycopg2-binary
+pandas
