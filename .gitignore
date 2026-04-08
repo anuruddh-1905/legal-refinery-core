@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- Legal Refinery Specific ---
+# Ignore raw data (PDFs/CSVs) to prevent large file pushes and PII leaks
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore processed/refined data (JSONL)
+data/refined/*
+!data/refined/.gitkeep
+
+# Ignore Tesseract temporary files
+*.tmp
+*.log
+
+# Ignore local database dumps
+*.sql
+*.dump
+
+# Mac system files (if anyone on the team uses Mac)
+.DS_Store
