@@ -1,7 +1,7 @@
-# engine/constants.py
+"""The "Legal Big Five": Standardized entity labels for Sprint 1
+Every module (OCR & NER) must map their output to these keys.
+"""
 
-# The "Legal Big Five": Standardized entity labels for Sprint 1
-# Every module (OCR & NER) must map their output to these keys.
 SUPPORTED_ENTITIES = [
     "PARTIES",      # Names of people, companies, or organizations
     "REFERENCE_ID", # Case numbers, contract IDs, or bill references
